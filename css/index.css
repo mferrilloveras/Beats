@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li{list-style: none;}
+
+h1 ,h2, h3, h4 , h5 , h6 , strong{
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+p a{
+    display: inline;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+svg{
+    display: block;
+    fill: currentColor;
+}
+
+:root{
+    font-size: 100%;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+
+}
+
+/*HEADER*/
+
+.Header{
+    width: 100%;
+    /* background-color: lightblue; */
+    
+    padding: 2rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-left{
+    /* background-color: aqua; */
+}
+
+.Header-h1{}
+.Header-link{}
+.Header-logo{}
+
+.Header-right{
+    /* background-color: yellowgreen; */
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 1.5rem;
+}
+
+.Header-nav{}
+.Header-ul{
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 1.5rem;
+}
+.Header-li{}
+.Header-a{}
+.Header-a:hover{
+    color: #BBA095;
+}
+
+.Header-menu{}
+.Header-icon{}
+
+.Main{}
+.Main-section{}
+.New{}
+.App{}
+.Video{}
+.Reviews{}
+.Map{}
+.Product{}
+.Img{}
